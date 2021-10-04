@@ -14,7 +14,11 @@ module.exports = {
         },
       }),
       colors: {
-        gris: '#431dea',
+        bleu: '#431dea',
+      },
+      fontFamily: {
+        sans: ['Helvetica', 'Arial', 'sans-serif'],
+        body: ['Oswald', 'sans-serif'],
       },
     },
     container: {
