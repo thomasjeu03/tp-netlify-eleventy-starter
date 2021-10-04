@@ -20,6 +20,9 @@ module.exports = {
         sans: ['Helvetica', 'Arial', 'sans-serif'],
         body: ['Oswald', 'sans-serif'],
       },
+      screens: {
+        portrait: { raw: '(orientation: portrait)' },
+      },
     },
     container: {
       center: true,
