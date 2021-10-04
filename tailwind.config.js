@@ -3,7 +3,7 @@
 module.exports = {
   purge: ['./src/**/*.{njk,md,js}'],
   darkMode: false, // or 'media' or 'class'
-  mode: 'jit',
+  /*mode: 'jit',*/
   theme: {
     extend: {
       typography: (theme) => ({
@@ -13,6 +13,9 @@ module.exports = {
           },
         },
       }),
+      colors: {
+        gris: '#431dea',
+      },
     },
     container: {
       center: true,
